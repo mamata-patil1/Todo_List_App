@@ -1,17 +1,16 @@
-# Currency Convertor
+# ToDo List App
 
 ## Overview
 
-Currency Converter is a web application built using ReactJS that allows users to convert between different currencies. It fetches real-time exchange rates from an external API and provides a simple and intuitive interface for currency conversion.
-
-With support for multiple currencies and real-time exchange rates, this tool makes it easy to perform currency conversions for various purposes, such as travel, finance, or business.
+A To-Do List App in React lets users add, view, and delete tasks. It uses React's useState hook to keep track of the list of tasks. Users can type a task in an input box and click an "Add" button to save it to the list. Each task appears below with a "Delete" button next to it, which removes the task when clicked. You can also add extra features like marking tasks as completed or editing them. It's a great beginner project to learn how React works with components and state.
 
 ## Badges
 
 - [![Vite][Vite.js]][Vite-url]
 - [![React][React.js]][React-url]
-- [![TailwindCSS][Tailwind.js]][Tailwind-url]
-- [![Firebase][Firebase.js]][Tailwind-url]
+
+- [![Netlify][Netlify-badge]][Netlify-url]
+
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
@@ -19,19 +18,17 @@ With support for multiple currencies and real-time exchange rates, this tool mak
 [Vite-url]: https://vitejs.dev/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Tailwind.js]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
-[Tailwind-url]: https://tailwindcss.com/
-[Firebase.js]: https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase
+
 [Tailwind-url]: https://firebase.google.com/
+[Netlify-url]: https://www.netlify.com
+[Netlify-badge]: https://www.netlify.com/img/global/badges/netlify-light.svg
 
 ## Live Demo
 
-You can try out the Currency Convertor here:
+You can try out the ToDo list App here:
 
-- [Firebase App](https://currencyconvertor-b5c07.firebaseapp.com/)
-  or Click here
-- https://currencyconvertor-b5c07.web.app/
-- https://currencyconvertor-b5c07.firebaseapp.com/
+- [(dolistapp2.netlify.app/)](https://dolistapp2.netlify.app/)
+  
 
 
 ## Screenshots
