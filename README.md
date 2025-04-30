@@ -40,7 +40,7 @@ You can try out the Currency Convertor here:
 
 ![ After Conversion.png Screenshot of my project](https://github.com/mamata-patil1/Todo_List_App/blob/main/converted.png)
 
-![ Favourite Currency on top of List.png Screenshot of my project](https://github.com/mamata-patil1/Todo_List_App/blob/main/dropdown.png)
+
 
 ## Features
 
