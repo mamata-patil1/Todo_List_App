@@ -4,13 +4,11 @@ import { MdCheck, MdDeleteForever } from "react-icons/md";
 import TodoForm from "./TodoForm";
 import TodoList from "./TodoList";
 import TodoDate from "./TodoDate";
-const todoskey = "reactTodo";
+import {
+  getLocalStorageTodoData,
+  setLocalStorageTodoData,
+} from "./TodoLocalStorage";
 
-const getLocalStorageTodoData = () => {
-  const rawTodos = localStorage.getItem(todoskey);
-  if (!rawTodos) return [];
-  return JSON.parse(rawTodos);
-};
 const Todo = () => {
   const [task, setTask] = useState(() => getLocalStorageTodoData());
 
@@ -26,7 +24,6 @@ const Todo = () => {
     setTask((prevTask) => [...prevTask, { id, content, checked }]);
   };
   //add data to local storage
-  localStorage.setItem("todoskey", JSON.stringify(task));
 
   //todo handle deleteTodo function
   const HandleDeleteTodo = (value) => {
@@ -34,6 +31,7 @@ const Todo = () => {
     setTask(updatedTask);
   };
 
+  setLocalStorageTodoData(task);
   //to handleClearTodo Functality
 
   const handleClearTodoData = () => {
