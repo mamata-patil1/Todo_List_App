@@ -33,50 +33,50 @@ You can try out the ToDo list App here:
 
 ## Screenshots
 
-![ Initial Screenshot of my project](https://github.com/mamata-patil1/Todo_List_App/blob/main/initial_sc.png)
+![ Initial Screenshot of my project](./screenshots/ss1.png)
 
-![ After Conversion.png Screenshot of my project](https://github.com/mamata-patil1/Todo_List_App/blob/main/converted.png)
+![ After Conversion.png Screenshot of my project](./screenshots/ss2.png)
 
 
 
 ## Features
 
-- Real-time Exchange Rates: Fetches the latest exchange rates from a reliable API to ensure accurate conversions.
+✅ Add Task – Easily add new tasks using the input field.
 
-- Multiple Currency Support: Supports conversion between a wide range of currencies.
+🗑️ Delete Task – Remove any task with a single click.
 
-- Favourite Currencies : Simply add Favourite currencies to see on the top of list of currencies.
-
-- User-friendly Interface: Provides a clean and intuitive interface for users to enter the amount and select the currencies they want to convert between.
+✔️ Mark as Completed – Click on a task to mark it as done or undone.
 
 - Responsive Design: Optimized for various screen sizes and devices, ensuring a seamless user experience across desktop and mobile platforms.
 
 ## Usage/Examples
 
-1. Select the currency you want to convert from and the currency you want to convert to from the dropdown menus.
+1.Open the app
+Go to the live site (if deployed on Netlify) or run it locally with npm run dev.
 
-(You can add currencies to favourite )
+2.Add a Task
+Type your task in the input box and click the Add button. The task will appear in the list.
 
-2. Enter the amount you want to convert in the input field.
+3.Mark as Completed
+Click on a task to toggle it between completed and not completed. Completed tasks may appear with a line through them (✔️).
 
-3. The converted amount will be displayed automatically.
-
-4. To perform another conversion, simply repeat steps 1-3.
+4.Delete a Task
+Click the Delete (🗑️) button next to a task to remove it from the list.
 
 ## Setup or Run Locally
 
-To run the Currency Converter locally on your machine, follow these steps:
+To run the To-do list locally on your machine, follow these steps:
 
 1. Clone the repository to your local machine:
 
 ```bash
-  git clone https://github.com/harshalmadgulkar/currency-convertor
+  git clone https://github.com/your-username/todo-app.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd currency-convertor
+cd todo-app
 ```
 
 3. Install dependencies using npm or yarn:
